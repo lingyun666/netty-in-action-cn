@@ -1,6 +1,6 @@
 # 《Netty 实战》 Netty In Action 中文版
 
->代码清单已经更新到 Netty 4.1.25.final
+> 代码清单已经更新到 Netty 4.1.25.final
 
 [如何评价这本书-知乎](https://www.zhihu.com/question/58838575)
 
@@ -13,7 +13,6 @@
 [不负好时光《Netty IN ACTION》中文版《Netty实战》翻译手记（ATA内网）](https://www.atatech.org/articles/79051?flag_data_from=recommend)
 
 ![image](https://cloud.githubusercontent.com/assets/501740/25295296/94d2ef06-2715-11e7-9a2a-916d77014cfc.png)
-
 
 ## 内容提要
 
@@ -31,16 +30,15 @@
 
 ## 说明
 
-这个仓库包含了[Netty In Action](http://www.manning.com/maurer/) 这本书的中文版 [Netty实战](http://www.epubit.com.cn) 的代码清单.
+这个仓库包含了[Netty In Action](http://www.manning.com/maurer/) 这本书的中文版 [Netty实战](http://www.epubit.com.cn)
+的代码清单.
 为了更好地服务于读者,进行了如下方面的改进.
-
 
 相对于英文版本([2.0-SNAPSHOT](https://github.com/ReactivePlatform/netty-in-action-cn/tree/2.0-SNAPSHOT)分支):
 
 1. 更新了行文中的注释
 2. 按照中文版本的排版进行了调整
 3. 所有的代码清单以及跳转都使用了中文版书籍中的翻译
-
 
 ## 反馈
 
@@ -53,6 +51,7 @@
 请直接克隆本项目即可,建议对照原文查看代码.
 
 ## 勘误
+
 [前言: 2001 => 2011](https://github.com/ReactivePlatform/netty-in-action-cn/issues/2)
 
 -----
@@ -62,15 +61,12 @@ Prerequisites
     maven 3.3.9
     JDK 8
 
-
 If you want to build everything at once, from the top directory run
 
 	mvn install
 
-
 If you want to build only single projects then from the top directory first run
 
 	mvn install -pl utils
-
 
 This will make the utils jar available to all the projects.

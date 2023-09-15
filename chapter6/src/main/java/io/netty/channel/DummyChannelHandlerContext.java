@@ -11,12 +11,13 @@ public class DummyChannelHandlerContext extends AbstractChannelHandlerContext {
             null,
             "dummyChannelHandlerContext"
     );
+    
     public DummyChannelHandlerContext(DefaultChannelPipeline pipeline,
                                       EventExecutor executor,
                                       String name) {
         super(pipeline, executor, name, ChannelDuplexHandler.class);
     }
-
+    
     @Override
     public ChannelHandler handler() {
         return null;
